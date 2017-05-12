@@ -1,0 +1,14 @@
+FileOpenedAction 1494611708791 PlanetExplorer.java 1245 2 1 0
+RefactoringAction 1494611809567 PlanetExplorer.java ADD int gridX FIELD
+RefactoringAction 1494611820612 PlanetExplorer.java ADD int gridY FIELD
+RefactoringAction 1494611916790 PlanetExplorer.java ADD String strana FIELD
+FileOpenedAction 1494612183247 TestPlanetExplorer.java 174 1 1 0
+RefactoringAction 1494612492407 PlanetExplorer.java ADD int FIELD
+RefactoringAction 1494612504952 PlanetExplorer.java REMOVE prepreke FIELD
+RefactoringAction 1494612529525 PlanetExplorer.java ADD ArrayList<String> pre FIELD
+RefactoringAction 1494612548507 PlanetExplorer.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1494612589264 PlanetExplorer.java ADD int pocet FIELD
+RefactoringAction 1494612592778 PlanetExplorer.java RENAME pocet=>int kordinata FIELD
+RefactoringAction 1494612595794 PlanetExplorer.java RENAME kordinata=>int kordinataX FIELD
+RefactoringAction 1494612603843 PlanetExplorer.java ADD int kordinataY FIELD
+EditAction 1494612667814 PlanetExplorer.java 1616 2 5 0
