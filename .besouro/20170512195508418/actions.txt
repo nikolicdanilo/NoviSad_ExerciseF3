@@ -12,3 +12,48 @@ RefactoringAction 1494612592778 PlanetExplorer.java RENAME pocet=>int kordinata 
 RefactoringAction 1494612595794 PlanetExplorer.java RENAME kordinata=>int kordinataX FIELD
 RefactoringAction 1494612603843 PlanetExplorer.java ADD int kordinataY FIELD
 EditAction 1494612667814 PlanetExplorer.java 1616 2 5 0
+RefactoringAction 1494612718659 TestPlanetExplorer.java ADD PlanetExplorer vozilo FIELD
+RefactoringAction 1494612800286 PlanetExplorer.java ADD String FIELD
+RefactoringAction 1494612837858 PlanetExplorer.java ADD int getGridX() METHOD
+RefactoringAction 1494612837858 PlanetExplorer.java ADD void setGridX(int) METHOD
+RefactoringAction 1494612837860 PlanetExplorer.java ADD int getGridY() METHOD
+RefactoringAction 1494612837861 PlanetExplorer.java ADD void setGridY(int) METHOD
+RefactoringAction 1494612837861 PlanetExplorer.java ADD String getStrana() METHOD
+RefactoringAction 1494612837862 PlanetExplorer.java ADD void setStrana(String) METHOD
+RefactoringAction 1494612837862 PlanetExplorer.java ADD ArrayList<String> getPre() METHOD
+RefactoringAction 1494612837862 PlanetExplorer.java ADD void setPre(ArrayList<String>) METHOD
+RefactoringAction 1494612837863 PlanetExplorer.java ADD int getKordinataX() METHOD
+RefactoringAction 1494612837863 PlanetExplorer.java ADD void setKordinataX(int) METHOD
+RefactoringAction 1494612837863 PlanetExplorer.java ADD int getKordinataY() METHOD
+RefactoringAction 1494612837864 PlanetExplorer.java ADD void setKordinataY(int) METHOD
+RefactoringAction 1494612837864 PlanetExplorer.java ADD String METHOD
+RefactoringAction 1494612837864 PlanetExplorer.java ADD void setPrepreke(String METHOD
+RefactoringAction 1494612840876 PlanetExplorer.java REMOVE setPrepreke(String METHOD
+RefactoringAction 1494612840877 PlanetExplorer.java REMOVE getPre() METHOD
+RefactoringAction 1494612840878 PlanetExplorer.java REMOVE getKordinataY() METHOD
+RefactoringAction 1494612840878 PlanetExplorer.java REMOVE getGridX() METHOD
+RefactoringAction 1494612840878 PlanetExplorer.java REMOVE getGridY() METHOD
+RefactoringAction 1494612840879 PlanetExplorer.java REMOVE setGridY(int) METHOD
+RefactoringAction 1494612840879 PlanetExplorer.java REMOVE setKordinataY(int) METHOD
+RefactoringAction 1494612840879 PlanetExplorer.java REMOVE getPrepreke() METHOD
+RefactoringAction 1494612840880 PlanetExplorer.java REMOVE setPre(ArrayList<String>) METHOD
+RefactoringAction 1494612840880 PlanetExplorer.java REMOVE getStrana() METHOD
+RefactoringAction 1494612840880 PlanetExplorer.java REMOVE getKordinataX() METHOD
+RefactoringAction 1494612840881 PlanetExplorer.java REMOVE setStrana(String) METHOD
+RefactoringAction 1494612840881 PlanetExplorer.java REMOVE setKordinataX(int) METHOD
+RefactoringAction 1494612840881 PlanetExplorer.java REMOVE setGridX(int) METHOD
+RefactoringAction 1494612855401 PlanetExplorer.java ADD int getGridX() METHOD
+RefactoringAction 1494612855402 PlanetExplorer.java ADD void setGridX(int) METHOD
+RefactoringAction 1494612855402 PlanetExplorer.java ADD int getGridY() METHOD
+RefactoringAction 1494612855403 PlanetExplorer.java ADD void setGridY(int) METHOD
+RefactoringAction 1494612855403 PlanetExplorer.java ADD String getStrana() METHOD
+RefactoringAction 1494612855403 PlanetExplorer.java ADD void setStrana(String) METHOD
+RefactoringAction 1494612855404 PlanetExplorer.java ADD ArrayList<String> getPre() METHOD
+RefactoringAction 1494612855404 PlanetExplorer.java ADD void setPre(ArrayList<String>) METHOD
+RefactoringAction 1494612855404 PlanetExplorer.java ADD int getKordinataX() METHOD
+RefactoringAction 1494612855405 PlanetExplorer.java ADD void setKordinataX(int) METHOD
+RefactoringAction 1494612855405 PlanetExplorer.java ADD int getKordinataY() METHOD
+RefactoringAction 1494612855405 PlanetExplorer.java ADD void setKordinataY(int) METHOD
+RefactoringAction 1494612855405 PlanetExplorer.java ADD String METHOD
+RefactoringAction 1494612855406 PlanetExplorer.java ADD void setPrepreke(String METHOD
+EditAction 1494612895136 TestPlanetExplorer.java 324 1 2 0
