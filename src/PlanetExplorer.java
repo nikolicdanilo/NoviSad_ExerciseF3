@@ -59,7 +59,11 @@ public class PlanetExplorer {
 			if(komande[i]=='f'){
 			switch(strana){
 			case 'N':
+				if(kordinataY==gridY){
+					kordinataY=0;
+				}else{
 				kordinataY++;
+				}
 				return getCoordinates();
 			case 'S':
 				kordinataY--;

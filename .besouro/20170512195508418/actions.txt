@@ -104,3 +104,4 @@ RefactoringAction 1494614130845 TestPlanetExplorer.java REMOVE vozilo/2 FIELD
 RefactoringAction 1494614172915 TestPlanetExplorer.java RENAME test_executeCommandF()/2=>void test_executeCommandFBorde() METHOD
 RefactoringAction 1494614174923 TestPlanetExplorer.java RENAME test_executeCommandFBorde()=>void test_executeCommandFBorderCase() METHOD
 EditAction 1494614209615 TestPlanetExplorer.java 701 3 9 3
+EditAction 1494614216119 PlanetExplorer.java 3593 16 21 0
