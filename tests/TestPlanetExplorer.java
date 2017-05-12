@@ -18,7 +18,6 @@ public class TestPlanetExplorer {
 		vozilo = new PlanetExplorer(2,2);
 		String ocekivaniIspis="(0, 0, N)";
 		
-		
 		assertEquals(ocekivaniIspis,vozilo.executeCommand("fff"));
 		
 	}
