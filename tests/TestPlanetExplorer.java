@@ -5,11 +5,19 @@ import org.junit.Test;
 public class TestPlanetExplorer {
 	PlanetExplorer vozilo;
 	@Test
-	public void test_executeCommandf() {
+	public void test_executeCommandF() {
 		vozilo = new PlanetExplorer(100,100);
 		String ocekivaniIspis="(0, 1, N)";
 		
 		assertEquals(ocekivaniIspis,vozilo.executeCommand("f"));
+		
+	}
+	@Test
+	public void test_executeCommandB() {
+		vozilo = new PlanetExplorer(100,100);
+		String ocekivaniIspis="(0, -1, N)";
+		
+		assertEquals(ocekivaniIspis,vozilo.executeCommand("b"));
 		
 	}
 }
