@@ -7,7 +7,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_executeCommandf() {
 		vozilo = new PlanetExplorer(100,100);
-		String ocekivaniIspis="(0,1,N)";
+		String ocekivaniIspis="(0, 1, N)";
 		
 		assertEquals(ocekivaniIspis,vozilo.executeCommand("f"));
 		
