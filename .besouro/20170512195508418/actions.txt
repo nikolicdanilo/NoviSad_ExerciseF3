@@ -125,3 +125,10 @@ RefactoringAction 1494614566852 TestPlanetExplorer.java RENAME test_executeComma
 RefactoringAction 1494614568862 TestPlanetExplorer.java RENAME test_executeCommandBBorderCaseAnd()=>void test_executeCommandBBorderCaseAndThen() METHOD
 RefactoringAction 1494614569872 TestPlanetExplorer.java RENAME test_executeCommandBBorderCaseAndThen()=>void test_executeCommandBBorderCaseAndThenB() METHOD
 EditAction 1494614575395 TestPlanetExplorer.java 919 4 12 4
+UnitTestCaseAction 1494614577123 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494614577124 TestPlanetExplorer.java OK
+RefactoringAction 1494614769535 TestPlanetExplorer.java ADD void test_executeCommandBBorderCaseAndThenB()/2 METHOD
+RefactoringAction 1494614774043 TestPlanetExplorer.java RENAME test_executeCommandBBorderCaseAndThenB()/2=>void test_executeCommandl() METHOD
+RefactoringAction 1494614778554 TestPlanetExplorer.java RENAME test_executeCommandl()=>void test_executeCommand() METHOD
+RefactoringAction 1494614780061 TestPlanetExplorer.java RENAME test_executeCommand()=>void test_executeCommandL() METHOD
+EditAction 1494614793224 TestPlanetExplorer.java 1109 5 15 5
