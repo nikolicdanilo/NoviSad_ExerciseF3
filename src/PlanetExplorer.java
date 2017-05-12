@@ -39,10 +39,10 @@ public class PlanetExplorer {
 		gridX=x;
 		gridY=y;
 		prepreke =obstacles.split(",");
-		for(int i=0;i<prepreke.length;i+=2){
+		for(int i=0;i<prepreke.length;i++){
 			preprekaX.add(Integer.parseInt(prepreke[i]));
 		}
-		for(int i=1;i<prepreke.length;i+=2){
+		for(int i=0;i<prepreke.length;i++){
 			preprekaY.add(Integer.parseInt(prepreke[i]));
 		}
 		
