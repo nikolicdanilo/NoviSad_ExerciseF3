@@ -64,16 +64,16 @@ public class PlanetExplorer {
 				}else{
 				kordinataY++;
 				}
-				return getCoordinates();
+				break;
 			case 'S':
 				kordinataY--;
-				return getCoordinates();
+				break;
 			case 'E':
 				kordinataX++;
-				return getCoordinates();
+				break;
 			case 'W':
 				kordinataX--;
-				return getCoordinates();
+				break;
 				
 			}
 			}
@@ -81,21 +81,21 @@ public class PlanetExplorer {
 				switch(strana){
 				case 'N':
 					kordinataY--;
-					return getCoordinates();
+					break;
 				case 'S':
 					kordinataY++;
-					return getCoordinates();
+					break;
 				case 'E':
 					kordinataX--;
-					return getCoordinates();
+					break;
 				case 'W':
 					kordinataX++;
-					return getCoordinates();
+					break;
 					
 				}
 			}
 		}
-		return "";
+		return getCoordinates();
 		
 		
 		
