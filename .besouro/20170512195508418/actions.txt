@@ -172,3 +172,6 @@ RefactoringAction 1494616253450 TestPlanetExplorer.java RENAME test_executeMoreC
 RefactoringAction 1494616259963 TestPlanetExplorer.java RENAME test_executeMor()=>void test_executeCommandsEx() METHOD
 EditAction 1494616271462 TestPlanetExplorer.java 1913 8 23 7
 EditAction 1494616271749 PlanetExplorer.java 4712 14 21 0
+UnitTestCaseAction 1494616273061 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494616273061 TestPlanetExplorer.java FAIL
+EditAction 1494616286244 PlanetExplorer.java 4714 14 21 0

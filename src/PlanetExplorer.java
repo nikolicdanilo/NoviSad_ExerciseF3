@@ -70,7 +70,7 @@ public class PlanetExplorer {
 				if(kordinataY==gridY){
 					kordinataY=0;
 				}else{
-					for(int j=0;j<preprekaY.size();j++){
+					for(int j=0;j<preprekaY.size()-1;j++){
 						if(preprekaY.get(i)==getKordinataY()){
 							throw new PlanetExplorerException();
 						}	
