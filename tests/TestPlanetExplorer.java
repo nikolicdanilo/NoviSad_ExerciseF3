@@ -65,8 +65,16 @@ public class TestPlanetExplorer {
 	public void test_executeCommandsEx() throws PlanetExplorerException{
 		vozilo = new PlanetExplorer(100,100,"0,1");
 		
-		
 		vozilo.executeCommand("fff");
 		
 	}
+	@Test
+	public void test_executeCommandsWithObstacle() throws PlanetExplorerException{
+		vozilo = new PlanetExplorer(100,100,"0,1");
+		String ocekivaniIspis="(0, 1, E)";
+		
+		assertEquals(ocekivaniIspis,vozilo.executeCommand("f"));
+		
+	}
+	
 }

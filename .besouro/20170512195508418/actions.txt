@@ -181,3 +181,11 @@ EditAction 1494616304345 TestPlanetExplorer.java 1914 8 23 7
 UnitTestCaseAction 1494616305971 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1494616305971 TestPlanetExplorer.java FAIL
 EditAction 1494616350230 PlanetExplorer.java 4712 14 21 0
+UnitTestCaseAction 1494616352597 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494616352597 TestPlanetExplorer.java OK
+RefactoringAction 1494616381106 TestPlanetExplorer.java ADD void test_executeCommandsEx()/2 METHOD
+RefactoringAction 1494616402160 TestPlanetExplorer.java RENAME test_executeCommandsEx()/2=>void test_executeCommandsExx() METHOD
+RefactoringAction 1494616404168 TestPlanetExplorer.java RENAME test_executeCommandsExx()=>void test_executeCommands() METHOD
+RefactoringAction 1494616411177 TestPlanetExplorer.java RENAME test_executeCommands()=>void test_executeCommandsWithObstacles() METHOD
+RefactoringAction 1494616413184 TestPlanetExplorer.java RENAME test_executeCommandsWithObstacles()=>void test_executeCommandsWithObstacle() METHOD
+EditAction 1494616465537 TestPlanetExplorer.java 2151 9 26 8
