@@ -9,7 +9,7 @@ public class TestPlanetExplorer {
 		vozilo = new PlanetExplorer(100,100);
 		String ocekivaniIspis="(0,2,N)";
 		
-		assertEquals(ocekivaniIspis,vozilo.executeCommand("ff"));
+		assertEquals(ocekivaniIspis,vozilo.executeCommand("f"));
 		
 	}
 }
