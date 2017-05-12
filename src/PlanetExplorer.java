@@ -56,9 +56,21 @@ public class PlanetExplorer {
 		
 		char[] komande = command.toCharArray();
 		for(int i=0;i<komande.length;i++){
-			switch(komande[i]){
-			case 'f':kordinataY++;return getCoordinates();
-			
+			if(komande[i]=='f')
+			switch(strana){
+			case 'N':
+				kordinataY++;
+				return getCoordinates();
+			case 'S':
+				kordinataY--;
+				return getCoordinates();
+			case 'E':
+				kordinataX++;
+				return getCoordinates();
+			case 'W':
+				kordinataX--;
+				return getCoordinates();
+				
 			}
 		}
 		return "";
