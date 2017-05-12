@@ -22,9 +22,9 @@ public class TestPlanetExplorer {
 		
 	}
 	@Test
-	public void test_executeCommandB() {
+	public void test_executeCommandBBorderCase() {
 		vozilo = new PlanetExplorer(100,100);
-		String ocekivaniIspis="(0, -1, N)";
+		String ocekivaniIspis="(0, 100, N)";
 		
 		assertEquals(ocekivaniIspis,vozilo.executeCommand("b"));
 		

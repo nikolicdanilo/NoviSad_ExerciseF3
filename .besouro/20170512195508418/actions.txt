@@ -112,3 +112,5 @@ UnitTestCaseAction 1494614301709 TestPlanetExplorer.java OK
 UnitTestSessionAction 1494614301710 TestPlanetExplorer.java OK
 EditAction 1494614494159 PlanetExplorer.java 3916 16 21 0
 EditAction 1494614494413 TestPlanetExplorer.java 698 3 9 3
+RefactoringAction 1494614507251 TestPlanetExplorer.java RENAME test_executeCommandB()=>void test_executeCommandBBorderCase() METHOD
+EditAction 1494614525403 TestPlanetExplorer.java 709 3 9 3
