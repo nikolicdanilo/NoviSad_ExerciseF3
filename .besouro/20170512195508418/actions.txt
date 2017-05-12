@@ -96,3 +96,11 @@ RefactoringAction 1494613985186 TestPlanetExplorer.java RENAME test_executeComma
 RefactoringAction 1494613987195 TestPlanetExplorer.java RENAME test_executeCommandf()=>void test_executeCommandF() METHOD
 EditAction 1494614018280 TestPlanetExplorer.java 500 2 6 2
 EditAction 1494614018593 PlanetExplorer.java 3530 16 21 0
+UnitTestCaseAction 1494614019068 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494614019069 TestPlanetExplorer.java OK
+RefactoringAction 1494614127822 TestPlanetExplorer.java ADD PlanetExplorer vozilo/2 FIELD
+RefactoringAction 1494614127822 TestPlanetExplorer.java ADD void test_executeCommandF()/2 METHOD
+RefactoringAction 1494614130845 TestPlanetExplorer.java REMOVE vozilo/2 FIELD
+RefactoringAction 1494614172915 TestPlanetExplorer.java RENAME test_executeCommandF()/2=>void test_executeCommandFBorde() METHOD
+RefactoringAction 1494614174923 TestPlanetExplorer.java RENAME test_executeCommandFBorde()=>void test_executeCommandFBorderCase() METHOD
+EditAction 1494614209615 TestPlanetExplorer.java 701 3 9 3
