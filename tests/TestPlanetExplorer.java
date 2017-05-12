@@ -66,7 +66,7 @@ public class TestPlanetExplorer {
 		vozilo = new PlanetExplorer(100,100,"0,1");
 		
 		
-		vozilo.executeCommand("ff");
+		vozilo.executeCommand("fff");
 		
 	}
 }
