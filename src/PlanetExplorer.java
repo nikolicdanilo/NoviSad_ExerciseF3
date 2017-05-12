@@ -137,6 +137,21 @@ public class PlanetExplorer {
 					strana='S';
 					break;
 				}
+			if(komande[i]=='r'){
+					switch(strana){
+					case 'N':
+						strana='E';
+						break;
+					case 'S':
+						strana='W';
+						break;
+					case 'E':
+						strana='S';
+						break;
+					case 'W':
+						strana='N';
+						break;
+					}
 		}
 			
 		}
