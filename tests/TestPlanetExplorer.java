@@ -45,4 +45,12 @@ public class TestPlanetExplorer {
 		assertEquals(ocekivaniIspis,vozilo.executeCommand("l"));
 		
 	}
+	@Test
+	public void test_executeCommandR() {
+		vozilo = new PlanetExplorer(100,100);
+		String ocekivaniIspis="(0, 0, E)";
+		
+		assertEquals(ocekivaniIspis,vozilo.executeCommand("r"));
+		
+	}
 }
