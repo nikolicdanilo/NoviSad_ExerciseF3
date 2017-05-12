@@ -5,7 +5,7 @@ import org.junit.Test;
 public class TestPlanetExplorer {
 	PlanetExplorer vozilo;
 	@Test
-	public void test_executeCommandF() {
+	public void test_executeCommandF()throws PlanetExplorerException {
 		vozilo = new PlanetExplorer(10,10);
 		String ocekivaniIspis="(0, 1, N)";
 		
@@ -14,7 +14,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_executeCommandFBorderCase() {
+	public void test_executeCommandFBorderCase()throws PlanetExplorerException {
 		vozilo = new PlanetExplorer(2,2);
 		String ocekivaniIspis="(0, 0, N)";
 		
@@ -22,7 +22,7 @@ public class TestPlanetExplorer {
 		
 	}
 	@Test
-	public void test_executeCommandBBorderCase() {
+	public void test_executeCommandBBorderCase() throws PlanetExplorerException{
 		vozilo = new PlanetExplorer(100,100);
 		String ocekivaniIspis="(0, 100, N)";
 		
@@ -30,7 +30,7 @@ public class TestPlanetExplorer {
 		
 	}
 	@Test
-	public void test_executeCommandBBorderCaseAndThenB() {
+	public void test_executeCommandBBorderCaseAndThenB() throws PlanetExplorerException{
 		vozilo = new PlanetExplorer(100,100);
 		String ocekivaniIspis="(0, 99, N)";
 		
@@ -38,7 +38,7 @@ public class TestPlanetExplorer {
 		
 	}
 	@Test
-	public void test_executeCommandL() {
+	public void test_executeCommandL() throws PlanetExplorerException{
 		vozilo = new PlanetExplorer(100,100);
 		String ocekivaniIspis="(0, 0, W)";
 		
@@ -46,7 +46,7 @@ public class TestPlanetExplorer {
 		
 	}
 	@Test
-	public void test_executeCommandR() {
+	public void test_executeCommandR() throws PlanetExplorerException{
 		vozilo = new PlanetExplorer(100,100);
 		String ocekivaniIspis="(0, 0, E)";
 		
@@ -54,11 +54,19 @@ public class TestPlanetExplorer {
 		
 	}
 	@Test
-	public void test_executeMoreCommands() {
+	public void test_executeMoreCommands() throws PlanetExplorerException{
 		vozilo = new PlanetExplorer(100,100);
 		String ocekivaniIspis="(2, 2, E)";
 		
 		assertEquals(ocekivaniIspis,vozilo.executeCommand("ffrff"));
+		
+	}
+	@Test(expected=PlanetExplorerException.class)
+	public void test_executeCommandsEx() throws PlanetExplorerException{
+		vozilo = new PlanetExplorer(100,100,"0,1");
+		
+		
+		vozilo.executeCommand("ff");
 		
 	}
 }

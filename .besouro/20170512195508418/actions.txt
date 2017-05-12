@@ -149,3 +149,25 @@ RefactoringAction 1494614919250 TestPlanetExplorer.java RENAME test_executeComma
 RefactoringAction 1494614920760 TestPlanetExplorer.java RENAME test_execute()=>void test_executeMore() METHOD
 RefactoringAction 1494614923269 TestPlanetExplorer.java RENAME test_executeMore()=>void test_executeMoreCommands() METHOD
 EditAction 1494614937419 TestPlanetExplorer.java 1497 7 21 7
+UnitTestCaseAction 1494614940468 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494614940469 TestPlanetExplorer.java OK
+RefactoringAction 1494615285685 PlanetExplorer.java REMOVE prepreke FIELD
+RefactoringAction 1494615289697 PlanetExplorer.java ADD char FIELD
+RefactoringAction 1494615295709 PlanetExplorer.java REMOVE setPrepreke(String METHOD
+RefactoringAction 1494615295710 PlanetExplorer.java REMOVE getPrepreke() METHOD
+RefactoringAction 1494615348809 PlanetExplorer.java ADD int FIELD
+RefactoringAction 1494615352823 PlanetExplorer.java REMOVE ko FIELD
+RefactoringAction 1494615365341 PlanetExplorer.java ADD int FIELD
+RefactoringAction 1494615369854 PlanetExplorer.java ADD int FIELD
+RefactoringAction 1494615370862 PlanetExplorer.java RENAME prepeke=>int FIELD
+RefactoringAction 1494615441932 PlanetExplorer.java REMOVE prepekeY FIELD
+RefactoringAction 1494615441932 PlanetExplorer.java REMOVE preprekeX FIELD
+RefactoringAction 1494615481037 PlanetExplorer.java ADD ArrayList<Integer> preprekaX FIELD
+RefactoringAction 1494615516075 PlanetExplorer.java ADD ArrayList<Integer> preprekaX/2 FIELD
+RefactoringAction 1494615518087 PlanetExplorer.java RENAME preprekaX/2=>ArrayList<Integer> preprekaY FIELD
+RefactoringAction 1494615560199 PlanetExplorer.java REMOVE prepreke FIELD
+RefactoringAction 1494615561709 PlanetExplorer.java ADD String FIELD
+RefactoringAction 1494616198305 TestPlanetExplorer.java ADD void test_executeMoreCommands()/2 METHOD
+RefactoringAction 1494616253450 TestPlanetExplorer.java RENAME test_executeMoreCommands()/2=>void test_executeMor() METHOD
+RefactoringAction 1494616259963 TestPlanetExplorer.java RENAME test_executeMor()=>void test_executeCommandsEx() METHOD
+EditAction 1494616271462 TestPlanetExplorer.java 1913 8 23 7
