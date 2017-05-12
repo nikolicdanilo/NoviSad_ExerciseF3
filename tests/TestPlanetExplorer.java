@@ -29,4 +29,12 @@ public class TestPlanetExplorer {
 		assertEquals(ocekivaniIspis,vozilo.executeCommand("b"));
 		
 	}
+	@Test
+	public void test_executeCommandBBorderCaseAndThenB() {
+		vozilo = new PlanetExplorer(100,100);
+		String ocekivaniIspis="(0, 99, N)";
+		
+		assertEquals(ocekivaniIspis,vozilo.executeCommand("bb"));
+		
+	}
 }

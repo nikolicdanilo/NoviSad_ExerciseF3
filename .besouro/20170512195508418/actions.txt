@@ -114,3 +114,14 @@ EditAction 1494614494159 PlanetExplorer.java 3916 16 21 0
 EditAction 1494614494413 TestPlanetExplorer.java 698 3 9 3
 RefactoringAction 1494614507251 TestPlanetExplorer.java RENAME test_executeCommandB()=>void test_executeCommandBBorderCase() METHOD
 EditAction 1494614525403 TestPlanetExplorer.java 709 3 9 3
+UnitTestCaseAction 1494614527559 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494614527559 TestPlanetExplorer.java OK
+UnitTestCaseAction 1494614529336 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494614529337 TestPlanetExplorer.java OK
+RefactoringAction 1494614554823 TestPlanetExplorer.java REMOVE test_executeCommandBBorderCase() METHOD
+RefactoringAction 1494614555829 TestPlanetExplorer.java ADD void test_executeCommandBBorderCase() METHOD
+RefactoringAction 1494614559341 TestPlanetExplorer.java ADD void test_executeCommandBBorderCase()/2 METHOD
+RefactoringAction 1494614566852 TestPlanetExplorer.java RENAME test_executeCommandBBorderCase()/2=>void test_executeCommandBBorderCaseAnd() METHOD
+RefactoringAction 1494614568862 TestPlanetExplorer.java RENAME test_executeCommandBBorderCaseAnd()=>void test_executeCommandBBorderCaseAndThen() METHOD
+RefactoringAction 1494614569872 TestPlanetExplorer.java RENAME test_executeCommandBBorderCaseAndThen()=>void test_executeCommandBBorderCaseAndThenB() METHOD
+EditAction 1494614575395 TestPlanetExplorer.java 919 4 12 4
