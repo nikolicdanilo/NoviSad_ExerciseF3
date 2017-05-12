@@ -57,3 +57,22 @@ RefactoringAction 1494612855405 PlanetExplorer.java ADD void setKordinataY(int) 
 RefactoringAction 1494612855405 PlanetExplorer.java ADD String METHOD
 RefactoringAction 1494612855406 PlanetExplorer.java ADD void setPrepreke(String METHOD
 EditAction 1494612895136 TestPlanetExplorer.java 324 1 2 0
+CompilationAction 1494612895323 TestPlanetExplorer.java
+CompilationAction 1494612960927 TestPlanetExplorer.java
+CompilationAction 1494612961059 TestPlanetExplorer.java
+RefactoringAction 1494612967880 PlanetExplorer.java ADD Object getPrepreke()/2 METHOD
+RefactoringAction 1494612975520 PlanetExplorer.java REMOVE getPrepreke()/2 METHOD
+RefactoringAction 1494613004056 PlanetExplorer.java ADD PlanetExplorer(int, int, String)/2 METHOD
+RefactoringAction 1494613008075 PlanetExplorer.java RENAME PlanetExplorer(int, int, String)/2=>PlanetExplorer(int, int) METHOD
+RefactoringAction 1494613236403 TestPlanetExplorer.java RENAME test_executeCommand()=>void test_executeCommandf() METHOD
+RefactoringAction 1494613372348 PlanetExplorer.java ADD char strana/2 FIELD
+RefactoringAction 1494613375360 PlanetExplorer.java RENAME strana/2=>char s FIELD
+RefactoringAction 1494613376374 PlanetExplorer.java RENAME s=>char smer FIELD
+RefactoringAction 1494613415948 PlanetExplorer.java ADD String get FIELD
+RefactoringAction 1494613420465 PlanetExplorer.java RENAME get=>String getCoordinater() METHOD
+RefactoringAction 1494613492146 PlanetExplorer.java RENAME getCoordinater()=>String getCoordinates() METHOD
+CompilationAction 1494613524968 PlanetExplorer.java
+CompilationAction 1494613524969 PlanetExplorer.java
+RefactoringAction 1494613534248 PlanetExplorer.java REMOVE getStrana() METHOD
+RefactoringAction 1494613534250 PlanetExplorer.java REMOVE setStrana(String) METHOD
+EditAction 1494613640067 TestPlanetExplorer.java 308 1 3 1
