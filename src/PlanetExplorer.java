@@ -66,13 +66,25 @@ public class PlanetExplorer {
 				}
 				break;
 			case 'S':
-				kordinataY--;
+				if(kordinataY==0){
+				kordinataY=gridY;
+			}else{
+			kordinataY--;
+			}
 				break;
 			case 'E':
+				if(kordinataX==gridX){
+					kordinataY=0;
+				}else{
 				kordinataX++;
+				}
 				break;
 			case 'W':
+				if(kordinataY==0){
+					kordinataX=gridX;
+				}else{
 				kordinataX--;
+				}
 				break;
 				
 			}
@@ -80,16 +92,32 @@ public class PlanetExplorer {
 			if(komande[i]=='b'){
 				switch(strana){
 				case 'N':
+					if(kordinataY==0){
+						kordinataY=gridY;
+					}else{
 					kordinataY--;
+					}
 					break;
 				case 'S':
+					if(kordinataY==gridY){
+						kordinataY=0;
+					}else{
 					kordinataY++;
+					}
 					break;
 				case 'E':
+					if(kordinataY==0){
+						kordinataX=gridX;
+					}else{
 					kordinataX--;
+					}
 					break;
 				case 'W':
+					if(kordinataX==gridX){
+						kordinataY=0;
+					}else{
 					kordinataX++;
+					}
 					break;
 					
 				}
