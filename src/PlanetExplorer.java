@@ -120,8 +120,25 @@ public class PlanetExplorer {
 					}
 					break;
 					
+				}		
+		}
+			if(komande[i]=='l'){
+				switch(strana){
+				case 'N':
+					strana='W';
+					break;
+				case 'S':
+					strana='E';
+					break;
+				case 'E':
+					strana='N';
+					break;
+				case 'W':
+					strana='S';
+					break;
 				}
-			}
+		}
+			
 		}
 		return getCoordinates();
 		
