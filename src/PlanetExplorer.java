@@ -14,6 +14,8 @@ public class PlanetExplorer {
 	private int kordinataX=0;
 	private int kordinataY=0;
 	String[] prepreke;
+	ArrayList<Integer> preprekaX= new ArrayList<Integer>();
+	ArrayList<Integer> preprekaY= new ArrayList<Integer>();
 	public PlanetExplorer(int x, int y){
 		/*	x and y represent the size of the grid.
 		 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -36,13 +38,19 @@ public class PlanetExplorer {
 	 */
 		gridX=x;
 		gridY=y;
-		prepreke = obstacles.split("(|\\,|\\)");
+		prepreke =obstacles.split(",");
+		for(int i=0;i<prepreke.length;i+=2){
+			preprekaX.add(Integer.parseInt(prepreke[i]));
+		}
+		for(int i=1;i<prepreke.length;i+=2){
+			preprekaY.add(Integer.parseInt(prepreke[i]));
+		}
 		
 		
 		
 	}
 	
-	public String executeCommand(String command){
+	public String executeCommand(String command) throws PlanetExplorerException{
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
@@ -62,6 +70,11 @@ public class PlanetExplorer {
 				if(kordinataY==gridY){
 					kordinataY=0;
 				}else{
+					for(int j=0;j<preprekaY.size();j++){
+						if(preprekaY.get(i)==getKordinataY()){
+							throw new PlanetExplorerException();
+						}	
+					}
 				kordinataY++;
 				}
 				break;
@@ -208,13 +221,7 @@ public class PlanetExplorer {
 		this.kordinataY = kordinataY;
 	}
 
-	public String[] getPrepreke() {
-		return prepreke;
-	}
-
-	public void setPrepreke(String[] prepreke) {
-		this.prepreke = prepreke;
-	}
+	
 
 	
 }

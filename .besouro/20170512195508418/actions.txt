@@ -171,3 +171,4 @@ RefactoringAction 1494616198305 TestPlanetExplorer.java ADD void test_executeMor
 RefactoringAction 1494616253450 TestPlanetExplorer.java RENAME test_executeMoreCommands()/2=>void test_executeMor() METHOD
 RefactoringAction 1494616259963 TestPlanetExplorer.java RENAME test_executeMor()=>void test_executeCommandsEx() METHOD
 EditAction 1494616271462 TestPlanetExplorer.java 1913 8 23 7
+EditAction 1494616271749 PlanetExplorer.java 4712 14 21 0
